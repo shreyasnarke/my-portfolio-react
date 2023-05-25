@@ -1,10 +1,6 @@
-// Enter all your detials in this file
-// Logo images
 import logogradient from "./assets/logo.svg";
 import logo from "./assets/logo2.svg";
-// Profile Image
 import profile from "./assets/profile.jpg";
-// Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
 import sass from "./assets/techstack/sass.png";
@@ -19,7 +15,6 @@ import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
-// Porject Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
 import projectImage3 from "./assets/projects/project3.jpg";
@@ -27,7 +22,6 @@ import projectImage4 from "./assets/projects/project4.jpg";
 import projectImage5 from "./assets/projects/project5.jpg";
 import projectImage6 from "./assets/projects/project6.jpg";
 
-// Logos
 export const logos = {
   logogradient: logogradient,
   logo: logo,
@@ -38,10 +32,9 @@ export const personalDetails = {
   name: "SHREYAS NARKE",
   tagline: "I build things for web",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: ``,
 };
 
-// Enter your Social Media URLs here
 export const socialMediaUrl = {
   linkdein: "https://www.linkedin.com/",
   github: "https://www.github.com/",
@@ -49,46 +42,31 @@ export const socialMediaUrl = {
   instagram: "https://www.instagram.com/",
 };
 
-// Enter your Work Experience here
 export const workDetails = [
   {
     Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
+    Company: `PraiseArray`,
+    Location: "Pune",
+    Type: "Part Time",
+    Duration: "",
   },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
+  
 ];
 
-// Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
-    Location: "Online",
+    Position: "Master in Computer Application",
+    Company: "Haribhai V. Desai,Pune University",
+    Location: "Pune",
     Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Duration: "Dec 2022 - Present",
   },
   {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
+    Position: "Bachelor in Computer Application",
+    Company: `Haribhai V. Desai,Pune University`,
+    Location: "Pune",
     Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Duration: "July 2019 - Oct 2022",
   },
 ];
 
@@ -110,7 +88,6 @@ export const techStackDetails = {
   figma: figma,
 };
 
-// Enter your Project Details here
 export const projectDetails = [
   {
     title: "Project title 1",
@@ -168,7 +145,6 @@ project lorem ipsum generator for dummy content`,
   },
 ];
 
-// Enter your Contact Details here
 export const contactDetails = {
   email: "narkeshreyas44@gmail.com",
   phone: "+91 9767710596",
