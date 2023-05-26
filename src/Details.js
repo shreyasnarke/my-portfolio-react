@@ -90,22 +90,22 @@ export const techStackDetails = {
 
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "Spotify music-clone",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `The Spotify Music App Clone project aims to recreate the popular music streaming platform using HTML and CSS. 
+    this project will provide users with a familiar and immersive music streaming experience.`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/shreyasnarke/smusic-spotify-clone-",
   },
   {
-    title: "Project title 2",
+    title: "Calculator-react",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `The Calculator App project implemented using React aims to create a fully functional calculator with an intuitive user interface. 
+    This app will allow users to perform basic arithmetic operations like addition, subtraction, multiplication, and division`,
+    techstack: "HTML/CSS, JavaScript ,React",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/shreyasnarke/calculator-react",
   },
   {
     title: "Project title 3",
